@@ -46,3 +46,72 @@
 #       print("You can buy a small burger and fries")
 #     else:
 #        print("You can only buy a small burger")
+#----------------------------------------------------------
+# användaren_mata_in = '55'
+
+# if användaren_mata_in.isnumeric() == True:
+#     tal1 = int(användaren_mata_in)
+# else:
+#     print('Du mata in fel! Programmet stängs av!')
+#     tal1 = None
+
+# if tal1 != None:
+#     print(tal1**2)
+#----------------------------------------------------------
+
+# while True:
+#     try:
+#         summa_pengar = int(input("Hur mycket pengar har du?"))
+#         break
+#     except ValueError:
+#         print("Svara med endast siffror")
+#----------------------------------------------------------
+
+# if 5 == 5:
+#     pass 
+
+# if 5 != 5:
+#     pass 
+#----------------------------------------------------------
+
+# delat = (150-190)/190 # Ursprungsvärde på 190 , ökat till 230 , 230-190=40
+
+# print(f'Den procentuella förändringen är {delat:>30}')
+#----------------------------------------------------------
+# tal = 24
+
+# print(23 > tal)
+#----------------------------------------------------------
+# nummer1 = int(input("Mata in ett tal: "))
+# nummer2 = int(input("mata in ett tal: "))
+# nummer3 = int(input("Mata in ett tal: "))
+
+# if nummer1 > nummer2 :
+#     largets = nummer1 # --> nummer1 > nummer2 och nummer3
+#     if nummer3 > nummer1: # --> nummer3 > nummer1 > nummer2
+#         largets = nummer3
+# else: # nummer2 > nummer1
+#     largets = nummer2 # --> nummer2 > nummer1 och nummer3
+#     if nummer3 > nummer2: # -- nummer3 > nummer2 > nummer1
+#         largets = nummer3
+
+# print("Största talet är " , int(largets))
+#----------------------------------------------------------
+# nummer1 = int(input("Mata in ett tal: "))
+# nummer2 = int(input("mata in ett tal: "))
+# nummer3 = int(input("Mata in ett tal: "))
+
+# # nr1 = 4 , nr2 = 3 , nr3 = 2
+# if nummer1 > nummer2:
+#     if nummer1 > nummer3:
+#         largets = nummer1 # --> nummer1 > nummer2 och nummer3
+#     if nummer3 > nummer1:
+#         largets = nummer3 # --> nummer3 > nummer2 och nummer1
+# else: # nummer2 > nummer1
+#     if nummer3 > nummer2: # -- nummer3 > nummer2 > nummer1
+#         largets = nummer3
+#     else:
+#         largets = nummer2 # --> nummer2 > nummer1 och nummer3
+
+# print("Största talet är " , int(largets))
+#----------------------------------------------------------
